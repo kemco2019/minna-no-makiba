@@ -99,7 +99,7 @@ if (isset($_GET['ajax'])) {
         <audio id="crySound" src="audio/cry01.mp3"></audio>
         <audio id="stepSound" src="audio/step02.mp3"></audio>
         <?php 
-        for ($i=0; $i < count($horses); $i++){ ?>
+        for ($i=count($horses)-1; $i >= 0  ; $i--){ ?>
             <div class="horse
             <?php echo ($horses[$i]['lfrt'] === 0 ? 'walk-left' : 'walk-right'); ?>"
             style="left:<?php echo rand(-100, 100); ?>vw; bottom:<?php echo rand(10, 25); ?>vh;"
