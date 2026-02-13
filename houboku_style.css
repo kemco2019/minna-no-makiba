@@ -91,8 +91,10 @@ body{
     -webkit-touch-callout: none; /* iOS Safariでの長押しメニュー無効化 */
 }
 .horse-img{
-    height: 20vh;
-    width: auto;
+    /* height: 20vh;
+    width: auto; */
+    width: 18vw;
+    height: auto;
     z-index: 0;
     user-select: none;
     -webkit-user-select: none; /* Safari, Chromeなど */

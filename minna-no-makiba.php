@@ -111,7 +111,7 @@ if (isset($_GET['ajax'])) {
                 <img src="<?php echo $horses[$i]['path']; ?>" alt="<?php echo $horses[$i]['name']; ?>" class="horse-img"/>
             </div>
         <?php 
-        } ?>
+        }?>
         <p id="credit"> </p>
     </div>
 
