@@ -20,4 +20,4 @@
 2. スマートフォンの切り抜き機能で背景透過のpng化
 3. horse-upload.phpからアップロード（馬の名前, コメントも付与）
 4. minna-no-makiba.phpをリロードするとアップロードした馬が表示される
-- makiba-ichiran.phpで過去にアップロードされた馬の一覧を鑑賞も可能
+- makiba-ichiran.phpで過去にアップロードされた馬の鑑賞も可能
